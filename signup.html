@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./signup.css">
+    <script src="./signup.js"></script>
+</head>
+<body>
+    <div class="register">
+        <span class="loginTitle">SignUp</span>
+            <form class="loginForm" onsubmit="return formValidation()">
+                <label>Username</label>
+                <input 
+                  type="text"
+                  name="name"
+                  id="name" 
+                  class="loginInput" 
+                  placeholder="Enter your Username..."
+                  />
+                <label>Email</label>
+                <input 
+                  type="text" 
+                  name="email"
+                  id="email"
+                  class="loginInput" 
+                  placeholder="Enter your Email..."
+                  />
+                <label>Password</label>
+                <input
+                 type="password"
+                 name="password"
+                 id="password" 
+                 class="loginInput" 
+                 placeholder="Enter your Password..."
+                 />
+                 <label>Phone Number</label>
+                 <input
+                  type="text"
+                  name="number"
+                  id="number" 
+                  class="loginInput" 
+                  placeholder="Enter your Phone Number..."
+                  />
+                
+                <button class="registerButton" type="submit">Register</button>
+            </form>
+            
+            
+        </div>
+</body>
+</html>
